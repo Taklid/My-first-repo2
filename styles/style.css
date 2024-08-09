@@ -36,7 +36,7 @@
 
 .nav-link{
     text-decoration: none;
-    margin-right: 30px;
+   margin-right: 50px;
     color:white;
 }
 
@@ -53,7 +53,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     align-items: center;
-    margin-right: 100px;
+    margin-left: 900px;
 }
 
 
@@ -65,13 +65,14 @@
 
 .p-titel{
     color: white;
-    margin-left: -350px;
-    margin-top: 300px;
+    margin-left: 50px;
+    margin-top: 600px;
+    position: absolute;
     
 }
 
 .pic{
-    margin-left: 350px;
+    margin-left: 900px;
     
 }
 
@@ -96,7 +97,7 @@
 }
 
 .btn{
-    margin-top: -200px;
+    margin-top: 100px;
     margin-left: 100px;
     
     
@@ -162,11 +163,13 @@
 
  .titel-des{
     text-align: center;
+   
  }
 
 
  .cng-container{
-        margin-top: 300px;
+        margin-top: 30px;
+        margin-left: 250px;
         
  }
  .titel{
@@ -214,9 +217,8 @@
       
  /* section area 1 */
         .run-ctn{
-            margin-left: 200px;
+            margin-left: 250px;
             background-color: rgb(34, 34, 34);
-            margin-right: 150px;
             border-radius: 10px;
             justify-content: space-between;
             
@@ -282,13 +284,15 @@
      margin: 0 auto;
      background-color: rgb(34, 34, 34);
      margin-top: 50px;
+     width: 1680px;
+     
     
 
   }
 
   .bmi{
-    gap: 150px;
-   margin-left: 50px;
+    gap: 250px;
+   margin-left: 250px;
   }
 
   .bmi-titel{
@@ -381,6 +385,11 @@
   /* Section area 3 */
 
 
+
+    .team-container{
+      margin-left: 300px;
+    }
+
     .team-des {
       text-align: center;
     }
@@ -419,6 +428,7 @@
     height: 200px;
     
     
+    
   }
 
 
@@ -450,14 +460,74 @@
    
   }
 
+  /* last section */
+
+
+  .l-s{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1680px;
+    height: 480px;
+    margin-top: 50px;
+    
+   
+  }
+
+  .last-container{
+    gap: 100px;
+   margin-left: 250px;
+   
+    
+    
+  }
+
+  .h-titel{
+    color: rgb(230, 83, 60);
+    font-size: 50px;
+  }
+
+  .p-prgrp, .h-4{
+    color: gray;
+    font-size: 20px;
+  }
+
+  .h-titel2{
+    color: white;
+    font-size: 40px;
+    margin-right: 80px;
+  }
+
+  /* footer */
+
+  .footer{
+    background-color: rgba(255, 255, 255, 0.1) ;
+    margin-top: -22px;
+    width: 1680px;
+    
+  }
+
+  .f-h1{
+    margin-left: 700px;
+    color: gray;
+    
+  }
+
+   
+
   /* Responsive area */
 @media screen and (max-width: 576px) {
      .nav-links, .navber, .ctn,{
         flex-direction: column;
     }
+
+    
+
     .nav-links{
          display: none;
          
+    }
+
+    .d-t{
+      flex-direction: column;
     }
 
     .bars{
@@ -465,41 +535,46 @@
      display: block;
      font-size: 30px;
      margin-top: 20px;
-     margin-right: 500px;
+     margin-right: 150px;
         
     }
 
     .p-titel{
-        margin-left:px;
-        margin-top: 350px;
+        margin-left:100px;
+        margin-top: 280px;
     }
 
     .btn{
-        margin-top: -280px;
+        margin-top: -680px;
         
     }
 
     .pic{
-        margin-top: 150px;
-        margin-left: 10px;
-        
+        margin-top: 130px;
+        margin-left: 100px;
+       
         
     }
 
     .cng-container{
-        margin-top: 500px;
+        /* margin-top: 500px; */
+       
     }
     .img{
         grid-template-columns: repeat(1, 4fr);
         /* margin-top: 500px; */
         
-         margin-left: 280px;
+          margin-left: 20px;
+         
 
     }
     
     .titel-des{
         /* margin-top: 500px; */
-        margin-right: 500px;
+         /* margin-right: 490px; */
+         margin-top: 800px;
+         
+        
     }
 
     .p{
@@ -512,7 +587,9 @@
 
      .run-ctn{
         flex-direction: column;
-        max-width: 500px;
+        width: 400px;
+        margin-left: 50px;
+        
         
 
      }
@@ -526,8 +603,8 @@
 
       .des-p{
      /* margin-left: 200px; */
-     margin-left: 200px;
-     margin-top: -20px;
+     margin-left: 10px;
+     margin-top: 20px;
      } 
      .i{
         margin: 0 auto;
@@ -543,8 +620,12 @@
       max-width: 530px;
       border-radius: 10px;
      }
+
+     .bmi{
+      margin-left: 50px;
+     }
        body{
-        max-width: 1000px;
+        max-width: 600px;
       }
 
       /* .c, .team-des, .team-container{
@@ -555,13 +636,39 @@
         grid-template-columns: repeat(6, 1fr);
       } */
         .c{
+          height: 1320px;
+          width: 330px;
           
          
         }
+
+
+        .team-container{
+          margin: 0 auto;
+        }
        .c .pic-container{
         grid-template-columns: repeat(1,  6fr);
+        gap: 15px;
+       
       
         
+      }
+
+
+      .l-s{
+        height: 1200px;
+        width: 600px;
+      }
+
+       .last-container{
+        flex-direction: column;
+        margin-left: 20px;
+      }
+      .footer{
+        width: 600px;
+      }
+      .f-h1{
+        margin-left: 50px;
       }
 }
 
