@@ -9,6 +9,10 @@
 
 /* nav area */
 
+/* main > section{
+  max-width: 1300px;
+} */
+
 
 .bg-color{
     background-color: rgb(17, 17, 17);
@@ -221,6 +225,7 @@
             background-color: rgb(34, 34, 34);
             border-radius: 10px;
             justify-content: space-between;
+          
             
             
         }
@@ -285,6 +290,7 @@
      background-color: rgb(34, 34, 34);
      margin-top: 50px;
      width: 1680px;
+     
      
     
 
@@ -541,7 +547,7 @@
 
     .p-titel{
         margin-left:100px;
-        margin-top: 280px;
+        margin-top: 400px;
     }
 
     .btn{
@@ -552,6 +558,7 @@
     .pic{
         margin-top: 130px;
         margin-left: 100px;
+        
        
         
     }
@@ -564,7 +571,7 @@
         grid-template-columns: repeat(1, 4fr);
         /* margin-top: 500px; */
         
-          margin-left: 20px;
+          margin-left: -50px;
          
 
     }
@@ -573,6 +580,7 @@
         /* margin-top: 500px; */
          /* margin-right: 490px; */
          margin-top: 800px;
+         margin-left: -200px;
          
         
     }
@@ -587,7 +595,7 @@
 
      .run-ctn{
         flex-direction: column;
-        width: 400px;
+         max-width: 400px;
         margin-left: 50px;
         
         
@@ -617,15 +625,17 @@
 
 
      .bmi-container{
-      max-width: 530px;
+      max-width: px;
       border-radius: 10px;
+      max-width: 500px;
      }
 
      .bmi{
-      margin-left: 50px;
+     margin-left: 20px;
+      
      }
        body{
-        max-width: 600px;
+         max-width: 500px;
       }
 
       /* .c, .team-des, .team-container{
@@ -657,7 +667,7 @@
 
       .l-s{
         height: 1200px;
-        width: 600px;
+        max-width: 500px;
       }
 
        .last-container{
@@ -665,7 +675,7 @@
         margin-left: 20px;
       }
       .footer{
-        width: 600px;
+      max-width: 500px;
       }
       .f-h1{
         margin-left: 50px;
