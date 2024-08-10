@@ -269,6 +269,7 @@
     color: white;
     margin-left: 20px;
     margin-top: 80px;
+    
    
   
  }
@@ -525,7 +526,9 @@
         flex-direction: column;
     }
 
-    
+    .ftns{
+      margin-left: 20px;
+    }
 
     .nav-links{
          display: none;
@@ -541,12 +544,16 @@
      display: block;
      font-size: 30px;
      margin-top: 20px;
-     margin-right: 150px;
+     margin-right: 120px;
         
     }
 
+    .h1-titel{
+      margin-left: 20px;
+    }
+
     .p-titel{
-        margin-left:100px;
+        margin-left:20px;
         margin-top: 400px;
     }
 
@@ -602,10 +609,16 @@
 
      }
 
+      .btn{
+         margin-left: 20px;
+      }
+
      .btn1{
          margin-top: 150px;
          margin-left: 40%;
     
+        
+         
      }
 
 
